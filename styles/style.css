@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+}
+
+.screen {
+  background-color: greenyellow;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {}
+
+button {
+  font: inherit;
+  background-color: green;
+  color: white;
+  border: 0;
+  padding: 1em;
+}
